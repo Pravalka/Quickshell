@@ -1,0 +1,31 @@
+.kanban-board {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.kanban-column {
+  flex: 1;
+  margin: 0 10px;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #f5f5f5;
+}
+
+.kanban-column-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-count {
+  margin-left: 10px;
+}
+
+.column-actions {
+  display: flex;
+}
+
+.add-task-btn, .menu-btn {
+  margin-left: 10px;
+}
